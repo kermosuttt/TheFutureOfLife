@@ -7,11 +7,23 @@ body {
   border-width: thin;
   border-style: solid;
   border-color: white;
+  align-items: stretch;
+
+}
+
+h1 {
+    font-family: arial;
+    font
+}
+
+nav, ul {
+    font-family: arial;
 
 }
 
 header, nav ul {
   display: flex;
+
 }
 
 header {
@@ -25,14 +37,26 @@ header li {
   margin-right: 1em;
 }
 
+header p {
+  color: white;
+}
+
 header a {
   text-decoration: none;
+  color: white;
+}
+
+.hero p {
+  font-size: 20px;
 }
 
 .hero {
   display: flex;
   color: white;
-  font-size: 50px;
+  font-size: 90px;
   text-align: left;
-  
 }
+
+.logo {
+
+  }
