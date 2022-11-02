@@ -1,3 +1,5 @@
+@import url('https://css.gg/arrow-top-right.css');
+
 body {
   background-image: url(https://media.istockphoto.com/photos/blue-and-green-blurred-motion-abstract-background-picture-id1170825611?k=6&m=1170825611&s=170667a&w=0&h=yMdBXVt219s18coMIQfoF1Nik_-r58S9Viqwif7BHb0=);
   background-size: cover;
@@ -16,6 +18,15 @@ h1 {
     font
 }
 
+li {
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 1em;
+  display: flex;
+  list-style: none;
+ margin-right: 1em;
+}
+
 nav, ul {
     font-family: arial;
 
@@ -29,7 +40,6 @@ header, nav ul {
 header {
   justify-content: space-between;
   align-items: center;
-  padding: 1em 2em;
 }
 
 header li {
@@ -48,6 +58,7 @@ header a {
 
 .hero p {
   font-size: 20px;
+
 }
 
 .hero {
@@ -63,7 +74,7 @@ header a {
 
 .border2 {
   border-width: 1px;
-  border-style: solid;
+  border-style: solid none none none;
   border-color: white;
 }
 
@@ -73,4 +84,39 @@ p {
   display: flex;
   list-style: none;
   margin-right: 1em;
+}
+
+.header {
+  padding: 0em 1em;
+  display: flex
+}
+
+.middle {
+
+}
+
+.header section {
+  justify-content: flex-end;
+  color: white;
+  padding: 1em 1em;
+
+}
+
+.middle section {
+
+}
+
+.border2 ul {
+  list-style: none;
+  justify-content: space-between;
+}
+
+span {
+  content: "\2197";
+  color: white;
+  width: 20px;
+  height: 20px;
+  justify-content: flex-end;
+  color: white;
+  padding: 1em 15em;
 }
