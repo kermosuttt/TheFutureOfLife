@@ -3,16 +3,36 @@ body {
   background-size: cover;
 }
 
-.grid {
-display: grid;
-grid-template-columns: 1fr;
-grid-template-rows: 1fr;
-grid-column-gap: 0px;
-grid-row-gap: 0px;
+.border {
+  border-width: thin;
+  border-style: solid;
+  border-color: white;
+
 }
 
-.half1 {
-    background-color: black;
-    width: 65%;
-    height: 90px;
+header, nav ul {
+  display: flex;
+}
+
+header {
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 2em;
+}
+
+header li {
+  list-style: none;
+  margin-right: 1em;
+}
+
+header a {
+  text-decoration: none;
+}
+
+.hero {
+  display: flex;
+  color: white;
+  font-size: 50px;
+  text-align: left;
+  
 }
