@@ -2,3 +2,17 @@ body {
   background-image: url(https://media.istockphoto.com/photos/blue-and-green-blurred-motion-abstract-background-picture-id1170825611?k=6&m=1170825611&s=170667a&w=0&h=yMdBXVt219s18coMIQfoF1Nik_-r58S9Viqwif7BHb0=);
   background-size: cover;
 }
+
+.grid {
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: 1fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+.half1 {
+    background-color: black;
+    width: 65%;
+    height: 90px;
+}
